@@ -5,6 +5,7 @@ def hello(i):
     # classifier = pipeline("sentiment-analysis")
     # a = classifier(i)
     # return a
+    a = 1/0
     return "hello world"
 
 iface = gr.Interface(fn=hello, inputs="text", outputs="text")
